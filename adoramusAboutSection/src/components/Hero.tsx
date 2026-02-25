@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-cormorant font-extrabold text-black tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-playfair font-extrabold text-black tracking-tight">
             ADORAMUS DOMINUM
           </h1>
 

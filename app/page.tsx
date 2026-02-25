@@ -1,7 +1,5 @@
 import HeroSection from '@/components/HeroSection';
 import AboutMain from '@/components/AboutMain';
-import PersonalStorySection from '@/components/PersonalStorySection';
-import SignupSection from '@/components/SignupSection';
 import Footer from '@/components/Footer';
 import ChurchBackgroundSection from '@/components/ChurchBackgroundSection';
 
@@ -11,8 +9,6 @@ export default function Home() {
       <HeroSection />
       <ChurchBackgroundSection>
         <AboutMain />
-        <PersonalStorySection />
-        <SignupSection />
       </ChurchBackgroundSection>
       <Footer />
     </main>

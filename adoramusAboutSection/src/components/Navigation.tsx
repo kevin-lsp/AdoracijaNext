@@ -31,7 +31,7 @@ const Navigation = () => {
               key={item.id}
               variant="ghost"
               onClick={() => scrollToSection(item.id)}
-              className="text-black hover:text-black/70 hover:bg-black/10 transition-colors font-cormorant font-bold text-xl justify-end"
+              className="text-black hover:text-black/70 hover:bg-black/10 transition-colors font-playfair font-bold text-xl justify-end"
             >
               {item.label}
             </Button>
@@ -55,7 +55,7 @@ const Navigation = () => {
                   key={item.id}
                   variant="ghost"
                   onClick={() => scrollToSection(item.id)}
-                  className="w-full justify-end text-black hover:text-black/70 hover:bg-black/10 font-cormorant font-bold text-xl"
+                  className="w-full justify-end text-black hover:text-black/70 hover:bg-black/10 font-playfair font-bold text-xl"
                 >
                   {item.label}
                 </Button>

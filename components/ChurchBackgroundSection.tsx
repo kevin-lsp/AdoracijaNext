@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { ReactNode } from 'react';
+import Image from "next/image";
+import { ReactNode } from "react";
 
 interface ChurchBackgroundSectionProps {
   children: ReactNode;
 }
 
 export default function ChurchBackgroundSection({
-  children
+  children,
 }: ChurchBackgroundSectionProps) {
   return (
     <section className="relative overflow-hidden">
@@ -18,7 +18,7 @@ export default function ChurchBackgroundSection({
           src="/images/church-interior-bg.jpg"
           alt=""
           fill
-          className="object-cover opacity-35"
+          className="object-cover opacity-75"
           priority
         />
       </div>
@@ -27,9 +27,7 @@ export default function ChurchBackgroundSection({
       <div className="absolute inset-0 bg-gradient-to-b from-navy/80 via-transparent to-navy/20" />
 
       {/* Content Layer */}
-      <div className="relative z-10">
-        {children}
-      </div>
+      <div className="relative z-10">{children}</div>
     </section>
   );
 }
