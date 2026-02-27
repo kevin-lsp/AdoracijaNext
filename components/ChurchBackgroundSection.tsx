@@ -18,7 +18,7 @@ export default function ChurchBackgroundSection({
           src="/images/church-interior-bg.jpg"
           alt=""
           fill
-          className="object-cover opacity-75"
+          className="object-cover opacity-80"
           priority
         />
       </div>

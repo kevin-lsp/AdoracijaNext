@@ -21,9 +21,9 @@ const HeroSection = () => {
       <div className="absolute inset-0 divine-glow" />
 
       {/* Main Title - Centered */}
-      <div className="relative z-10 flex-1 flex items-start justify-center text-center px-4 pt-32 md:pt-40">
+      <div className="relative z-10 flex-1 flex justify-center text-center px-4 pt-32 md:pt-30">
         <h1
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold text-white animate-fade-up tracking-wide italic"
+          className="font-display text-6xl md:text-8xl lg:text-9xl font-semibold text-white animate-fade-up tracking-wide italic"
           style={{
             textShadow: `
               -2px -2px 0 rgba(0,0,0,0.8),
@@ -39,10 +39,10 @@ const HeroSection = () => {
       </div>
 
       {/* Poetry Quote - Bottom Center */}
-      <div className="relative z-10 text-center pb-12 md:pb-16 px-4">
-        <div className="max-w-3xl mx-auto">
+      <div className="relative z-10 text-center pb-12 md:pb-26 px-6">
+        <div className="max-w-2xl">
           <p
-            className="font-display text-lg md:text-xl lg:text-2xl text-white italic leading-relaxed mb-3"
+            className="font-display text-2lg md:text-2xl lg:text-3xl text-white italic leading-relaxed mb-3"
             style={{
               textShadow: `
                 -1px -1px 0 rgba(0,0,0,0.9),
