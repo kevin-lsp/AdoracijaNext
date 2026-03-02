@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 divine-glow" />
 
       {/* Main Title - Centered */}
-      <div className="relative z-10 flex-1 flex justify-center text-center px-4 pt-32 md:pt-30">
+      <div className="relative z-10 flex-1 flexjustify-center text-center px-4 pt-32 md:pt-30">
         <h1
           className="font-display text-6xl md:text-8xl lg:text-9xl font-semibold text-white animate-fade-up tracking-wide italic"
           style={{

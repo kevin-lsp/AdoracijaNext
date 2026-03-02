@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { Heart, Mail, Phone } from 'lucide-react';
+import { Heart, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -17,7 +17,8 @@ export default function Footer() {
               Adoramus Dominum
             </h3>
             <p className="text-cream/80 leading-relaxed mb-4">
-              Evharistična adoracija v Sloveniji. Pridruži se tihemu češčenju Najsvetejšega in odkrij moč molitve.
+              Evharistična adoracija v Sloveniji. Pridruži se tihemu češčenju
+              Najsvetejšega in odkrij moč molitve.
             </p>
             <p className="text-cream/60 italic flex items-center gap-2">
               <Heart className="w-4 h-4 text-gold" />
@@ -33,7 +34,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <button
-                  onClick={() => scrollToSection('about')}
+                  onClick={() => scrollToSection("about")}
                   className="text-cream/80 hover:text-gold transition-colors"
                 >
                   O adoraciji
@@ -41,31 +42,7 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection('how-to')}
-                  className="text-cream/80 hover:text-gold transition-colors"
-                >
-                  Kako pristopiti
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection('testimonies')}
-                  className="text-cream/80 hover:text-gold transition-colors"
-                >
-                  Besede svetnikov
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection('calendar')}
-                  className="text-cream/80 hover:text-gold transition-colors"
-                >
-                  Urnik
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection('signup')}
+                  onClick={() => scrollToSection("signup")}
                   className="text-cream/80 hover:text-gold transition-colors"
                 >
                   Pridruži se
@@ -84,7 +61,10 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-gold mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-cream/80">
-                    <a href="tel:+38641601854" className="hover:text-gold transition-colors">
+                    <a
+                      href="tel:+38641601854"
+                      className="hover:text-gold transition-colors"
+                    >
                       041 601 854
                     </a>
                   </p>
@@ -94,7 +74,10 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-gold mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-cream/80">
-                    <a href="mailto:info@adoramus.si" className="hover:text-gold transition-colors">
+                    <a
+                      href="mailto:info@adoramus.si"
+                      className="hover:text-gold transition-colors"
+                    >
                       info@adoramus.si
                     </a>
                   </p>
@@ -107,7 +90,8 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 text-center">
           <p className="text-cream/60">
-            © {new Date().getFullYear()} Adoramus Dominum. Ker molitev spreminja.
+            © {new Date().getFullYear()} Adoramus Dominum. Ker molitev
+            spreminja.
           </p>
         </div>
       </div>
