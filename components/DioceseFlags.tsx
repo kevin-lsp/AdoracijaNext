@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -38,7 +38,7 @@ const dioceses: Diocese[] = [
     accentColor: "#1e4a5f",
     coatOfArms: "/images/koper-flag.png",
     content: {
-      image: "/images/koper-adoracija.jpg",
+      image: "/images/koper-adoracija2.jpg",
       title: "Adoracija v tišini",
       sections: [
         {
@@ -51,14 +51,10 @@ const dioceses: Diocese[] = [
           label: "Urnik",
           text: "Vsak dan od ponedeljka do petka, dve uri po večerni sveti maši (od 19.30 do 21.30)",
         },
-        {
-          type: "text",
-          label: "Češčenje ob molitvi",
-          text: "Rožni venec vsako sredo in petek od 18.00 do 19.00",
-        },
+
         {
           type: "callout",
-          text: "Vabimo vas, da se pridružite skupini stalnih adoratorjev. Za več informacij pokličite 041 601 854 (Slavko).",
+          text: "Vabimo vas, da se pridružite skupini stalnih častilcev. Za več informacij pokličite 041 601 854 (Slavko).",
         },
       ],
     },
@@ -181,7 +177,7 @@ const DioceseFlags = () => {
                           {section.text}
                         </p>
                       </div>
-                    )
+                    ),
                   )}
                 </div>
               </div>

@@ -22,13 +22,14 @@ const sectionContent = {
   section1: {
     title: "Adoracija - molitev v tišini pred Najsvetejšim",
     initial:
-      "Adoracija je predvsem molitev v božji navzočnosti, saj je v posvečeni hostiji, v Najsvetejšem zakramentu, navzoč Jezus na stvaren in resničen način. Zato je to v prvi vrsti kontemplativna molitev, molitev zrenja, molka, tihega okušanja njegove navzočnosti in globokega osebnega pogovora. Pri tihi adoraciji dopustimo, da tišina spregovori. Da nam Bog v tišini spregovori.",
-    expanded: `Adoracija je globoko, intimno srečanje dveh oseb, ki se ljubita. 
-Človeka in Boga. Mene in Njega. Tebe in Njega.
+      "Adoracija je globoko, intimno srečanje dveh oseb, ki se ljubita. \nČloveka in Boga. Mene in Njega. Tebe in Njega.",
+    expanded: `Adoracija je predvsem molitev v božji navzočnosti, saj je v posvečeni hostiji, v Najsvetejšem zakramentu, navzoč Jezus na stvaren in resničen način. Zato je to v prvi vrsti kontemplativna molitev, molitev zrenja, molka, tihega okušanja njegove navzočnosti in globokega osebnega pogovora. Pri tihi adoraciji dopustimo, da tišina spregovori. Da nam Bog v tišini spregovori.
 
 Jezus nas v Najsvetejšem zakramentu vabi, da bi se mu zahvalili za dar odrešenja in tudi zato, da v nas neprenehoma izliva Božje življenje. Iz tega zaupnega in ljubečega odnosa z Jezusom v Najsvetejšem vedno znova prejemamo božje milosti in tako rastemo v veri, upanju in ljubezni.
 
-V adoraciji se učimo vztrajati v tihi molitvi. V tišini častiti Gospoda v Najsvetejšem zakramentu in postajati eno z Njim, ki je naše vse.
+V adoraciji se učimo vztrajati v tihi molitvi. 
+V tišini častiti Gospoda v Najsvetejšem zakramentu. 
+ostajati eno z Njim, ki je naše vse.
 `,
   },
   section2: {
@@ -45,46 +46,59 @@ Pri adoraciji Gospod in častilec v ljubezni zreta drug drugega. Srce govori src
 "Pridite k meni vsi, ki ste utrujeni in obteženi in jaz vas bom dal počitek. Vzemite nase svoj jarem in učite se od mene, ker sem krotak in v srcu ponižen, in našli boste mir svojim dušam.«
 (Mt 11, 28-29)`,
     expanded: `Vsak, brez izjeme je povabljen, da pred Najsvetejšim okusi nežnost Boga.
+
 Jezus svojim učencem razodene srce. 
 Danes njegovo srce utripa v Najsvetejšem zakramentu! 
-Evharistija je iznajdba Ljubezni. V njej Jezus izpolni obljubo: »In glejte: jaz sem z vami vse dni do konca sveta.`,
+
+V evharistiji Jezus izpolni obljubo: »In glejte: jaz sem z vami vse dni do konca sveta.«`,
   },
   section4: {
     title: "Stalna adoracija ali vsakodnevno evharistično češčenje",
     initial:
-      "Občasno izpostavljanje Najsvetejšega in možnost češčenja / adoracije je v naših župnijah relativno pogosto. Največkrat poteka ob sredah ali petkih, uro pred mašo, in je običajno povezano z molitvijo rožnega venca ali drugo molitveno pobožnostjo in ne poteka v tišini.",
-    expanded: `Stalno izpostavljanje - izpostavljanje Najsvetejšega, ki traja iz dneva v dan - je manj pogosto, običajno le v eni ali nekaj kapelah v posamezni škofiji. Kje točno v posamezni škofiji poteka stalna adoracija, lahko preberete v zavihku ob desnem robu te spletne strani.
+      "Stalno izpostavljanje - izpostavljanje Najsvetejšega, ki traja iz dneva v dan - običajno poteka le v eni ali nekaj kapelah v posamezni škofiji. Kje točno poteka stalna adoracija, lahko preberete v zavihku ob desnem robu te spletne strani.",
+    expanded: `Stalno izpostavljanje je mogoče le tam, kjer je na razpolago dovolj molivcev t. i. »stalnih častilcev«, torej oseb, ki se zavežejo, da bodo zagotovili prisotnost vsaj enega molivca pred izpostavljenim evharističnim Jezusom. Da lahko to živimo v praksi, vabimo k sodelovanju vse, ki želite postati del skupnosti stalnih častilcev.
 
-Stalno izpostavljanje je mogoče le tam, kjer je na razpolago dovolj molivcev t. i. »stalnih častilcev«, torej oseb, ki se zavežejo, da bodo zagotovili prisotnost vsaj enega molivca pred izpostavljenim evharističnim Jezusom. Da to lahko v praksi udejanjamo, je potrebno vzpostaviti minimalno organiziranost oseb, ki želijo odgovorno sodelovati v skupni stalnih častilcev.`,
+Poznamo tudi občasno izpostavljanje Najsvetejšega, ki je v naših župnijah precej pogosto. Običajno poteka ob sredah ali petkih, uro pred mašo. Pogosto je povezano z molitvijo rožnega venca ali drugo pobožnostjo in ne poteka v tišini.`,
   },
   section5: {
     title: "Stalni častilec",
     initial:
-      "Stalni častilec je kristjan, ki se zaveže, da bo častil Jezusa v Najsvetejšem zakramentu ob dogovorjeni, točno določeni uri, najmanj eno uro tedensko.",
-    expanded: `Kot stalni častilec se zaveže:                                  
-- da bo ob dogovorjeni uri prišel v cerkev, kjer je izpostavljeno Najsvetejše,
-- da bo pred Najsvetejšim v molitvi vztrajal dogovorjeno uro, dokler ne pride naslednji stalni častilec,
-- da bo v primeru nepričakovane zadržanosti o tem obvestil koordinatorja, oziroma sam poiskal ustrezno zamenjavo, osebo, ki bo namesto njega prevzela češčenje.
+      "Stalni častilec je kristjan, ki se zaveže, da bo vsaj eno uro tedensko – ob točno določenem času – častil Jezusa v Najsvetejšem zakramentu.",
+    expanded: ` Kot stalni častilec se zavežete:                                  
+- da boste ob dogovorjeni uri prišli v cerkev, kjer je izpostavljeno Najsvetejše,
+- da boste v molitvi vztrajali do prihoda naslednjega častilca,
+- da boste v primeru zadržanosti pravočasno obvestili koordinatorja ali sami poskrbeli za zamenjavo.
 
-Če se želite pridružiti stalnim častilcem, vas vabimo, da izpolnite spodnjo prijavo.`,
+Če se želite pridružiti, izpolnite spodnjo prijavo.`,
   },
 };
 
 // 12 Predlogs for Section 7
-const predlogs = [
+interface Predlog {
+  id: number;
+  title: string;
+  content?: string;
+  bibleQuote?: string;
+  reflection?: string;
+  source: string | null;
+}
+
+const predlogs: Predlog[] = [
   {
     id: 1,
     title: "Češčenje - preprosto in enostavno",
     content: `1. Jezusa počastim s poklekom ali priklonom in zavzamem primeren položaj.
 2. V sebi naredim potreben prostor, oziroma vzpostavim odprtost za Gospoda. Opustim vse skrbi, misli in spomine.
 3. V veri usmerim svojo pozornost na Jezusa Kristusa, ki je živo navzoč v Najsvetejšem, in me gleda z ljubeznijo in usmiljenjem.
-4. Lahko si pomagam z molitvijo, petjem kanonov, ali samo preživim čas v tihem okušanju Njegove navzočnosti. On gleda mene, jaz gledam Njega. On ljubi mene, jaz ljubim Njega.
+4. Lahko si pomagam z molitvijo ali samo preživim čas v tihem okušanju Njegove navzočnosti. 
+On gleda mene, jaz gledam Njega. 
+On ljubi mene, jaz ljubim Njega.
 5. Na koncu se zahvalim. Mirno odidem.`,
     source: null,
   },
   {
     id: 2,
-    title: "Češčenja - preprosto, nekoliko podrobneje",
+    title: "Češčenje - preprosto, nekoliko podrobneje",
     content: `1. Ko vstopim v cerkev, oziroma kapelo, najprej Jezusa počastim s poklekom ali priklonom in zavzamem primeren položaj, kakor morem glede na počutje, zdravje in druge okoliščine. V tišini se usedem in umirim dihanje.
 
 2. Zavestno se postavim v božjo prisotnost. V veri usmerim svojo pozornost, svoj pogled na hostijo, na Jezusa Kristusa, ki je živo navzoč in me gleda z ljubeznijo in usmiljenjem. Lahko si pomagam s preprostim stavkom: "Gospod tukaj sem." Ne kompliciram. Smo pridem.
@@ -99,7 +113,6 @@ const predlogs = [
   {
     id: 3,
     title: "Češčenje - razširjena razlaga",
-    recommended: false,
     content: `Zavem se, da je Bog tu prisoten in mi je ljubeče naklonjen. Edino, kar moram storiti je, da svojo pozornost usmerim predvsem Nanj.
 Če ti pomaga, lahko zapreš oči in se zaveš, da te Bog gleda z ljubečim pogledom. Podobno je, kakor se postavim na sonce in ta neobhodno sije name, na isti način name gleda Bog.
 
@@ -151,9 +164,8 @@ Amen na koncu teh molitev pomeni: " Tako naj bo."`,
   {
     id: 4,
     title: "Mojzes in goreči grm",
-    content: `Tedaj se mu je iz sredine grma v ognjenem plamenu prikazal Gospodov angel. Pogledal je in glej, grm je gorel s plamenom, a ni zgorel. 3 Mojzes je rekel: »Moram stopiti tja in si ogledati to veliko prikazen, kako da grm ne zgori!« 4 Ko je Gospod videl, da prihaja gledat, ga je Bog poklical iz sredine grma in rekel: »Mojzes, Mojzes!« Rekel je: »Tukaj sem.« 5 Bog je rekel: »Ne hôdi sem! Sezuj si sandale z nog, kajti kraj, kjer stojiš, je sveta zemlja!« 6 Potem je rekel: »Jaz sem Bog tvojega očeta, Bog Abrahamov, Bog Izakov in Bog Jakobov.« (2.Mz 3, 2–14)
-
-V svetem pismu je vedno Bog tisti, ki prvi prihaja človeku naproti. "Gospodov angel" predstavlja Boga samega, ki obišče svoje ljudstvo. Izbral si je podobo gorečega grma.
+    bibleQuote: `Tedaj se mu je iz sredine grma v ognjenem plamenu prikazal Gospodov angel. Pogledal je in glej, grm je gorel s plamenom, a ni zgorel. 3 Mojzes je rekel: »Moram stopiti tja in si ogledati to veliko prikazen, kako da grm ne zgori!« 4 Ko je Gospod videl, da prihaja gledat, ga je Bog poklical iz sredine grma in rekel: »Mojzes, Mojzes!« Rekel je: »Tukaj sem.« 5 Bog je rekel: »Ne hôdi sem! Sezuj si sandale z nog, kajti kraj, kjer stojiš, je sveta zemlja!« 6 Potem je rekel: »Jaz sem Bog tvojega očeta, Bog Abrahamov, Bog Izakov in Bog Jakobov.« (2.Mz 3, 2–14)`,
+    reflection: `V svetem pismu je vedno Bog tisti, ki prvi prihaja človeku naproti. "Gospodov angel" predstavlja Boga samega, ki obišče svoje ljudstvo. Izbral si je podobo gorečega grma.
 Bog, ki obišče svoje ljudstvo je danes navzoč v Presvetem zakramentu.
 Ogenj nakazuje neskončno Kristusovo ljubezen, ki očiščuje, preoblikuje, ozdravlja.
 Bog Mojzesa pokliče po imenu. Povabi ga na osebno srečanje, v odnos ljubezni, iz oči v oči.
@@ -166,13 +178,12 @@ Med adoracijo lahko prosim Gospoda za milost čudenja nad njegovo resnično navz
   {
     id: 5,
     title: "Češčenje treh modrih",
-    content: `1 Ko je bil Jezus rojen v Betlehemu v Judeji v dneh kralja Heroda, so prišli modri 
-z Vzhoda v Jeruzalem 2 in govorili: »Kje je ta, ki se je rodil kot judovski kralj? Videli smo namreč, da je vzšla njegova zvezda, 
-in smo se mu prišli poklonit.« 3 Ko je kralj Herod to slišal, se je vznemiril in ves Jeruzalem z njim. 4 Sklical je vse vélike duhovnike in pismouke ljudstva ter pri njih poizvedoval, kje je rojen Mesija. 5 Rekli so mu: »V Betlehemu v Judeji« (…) 
-…in modri so se odpravili na pot; in glej, zvezda, ki so jo videli vziti, 
-je šla pred njimi, dokler ni obstala nad krajem, kjer je bilo dete. 10 Ko so zagledali zvezdo, so se silno razveselili. 11 Stopili so v hišo in zagledali dete z Marijo, njegovo materjo. Padli so predenj in ga počastili. Odprli so svoje zaklade in mu darovali zlata, kadila in mire. (Mt 2, 1-11)
-
-Modri so pričakovali, da bo "ves Jeruzalem v veselju", a tam se niso zavedali velikega čudeža, rojstva Boga samega.
+    bibleQuote: `1 Ko je bil Jezus rojen v Betlehemu v Judeji v dneh kralja Heroda, so prišli modri
+z Vzhoda v Jeruzalem 2 in govorili: »Kje je ta, ki se je rodil kot judovski kralj? Videli smo namreč, da je vzšla njegova zvezda,
+in smo se mu prišli poklonit.« 3 Ko je kralj Herod to slišal, se je vznemiril in ves Jeruzalem z njim. 4 Sklical je vse vélike duhovnike in pismouke ljudstva ter pri njih poizvedoval, kje je rojen Mesija. 5 Rekli so mu: »V Betlehemu v Judeji« (…)
+…in modri so se odpravili na pot; in glej, zvezda, ki so jo videli vziti,
+je šla pred njimi, dokler ni obstala nad krajem, kjer je bilo dete. 10 Ko so zagledali zvezdo, so se silno razveselili. 11 Stopili so v hišo in zagledali dete z Marijo, njegovo materjo. Padli so predenj in ga počastili. Odprli so svoje zaklade in mu darovali zlata, kadila in mire. (Mt 2, 1-11)`,
+    reflection: `Modri so pričakovali, da bo "ves Jeruzalem v veselju", a tam se niso zavedali velikega čudeža, rojstva Boga samega.
 Enako je danes z nami: ravnodušnost mnogih župljanov do resnične Jezusove navzočnosti v hostiji nas lahko neprijetno preseneti.
 Modri so pričakovali da bodo ob rojstvu Kralja videli "ves sijaj neba in zemlje". A zvezda jih je vodila v hlev, k jaslim, kjer niso našli množice ljudi, zgolj ubogega otroka z materjo.
 Zmedeno so gledali Mater, ki je častila Božje Dete. Tedaj so doumeli prikrito skrivnost Emanuela, "Boga z nami". Razveselili so se in ga počastili!
@@ -184,12 +195,10 @@ Tako kot modri, se lahko "silno razveselimo, pademo predenj in ga počastimo"...
   {
     id: 6,
     title: "Marta in Marija",
-    content: `38 Ko so potovali, je prišel v neko vas in žena z imenom Marta ga je sprejela v svojo hišo. 
-39 Imela je sestro, ki ji je bilo ime Marija. Ta je sedla h Gospodovim nogam in poslušala njegove besede, 40 Marta pa je imela s postrežbo veliko dela. Pristopila je in rekla: »Gospod, ti ni mar, da me je sestra pustila sámo streči? Reci ji vendar, naj mi pomaga!« 41 Gospod ji je odgovoril: »Marta, Marta, skrbi in vznemirja te veliko stvari, 42 a le eno je potrebno. 
-Marija si je izvolila dobri del, ki ji ne bo odvzet.« (Lk 10, 38-42)
-
-
-Vsi moramo delati. Toda delo nas ne sme v celoti posrkati, kot se je to zgodilo Marti. Smisel našemu življenju ne daje najprej zemeljska hrana, temveč hrana, ki daje večno življenje, to je evharistični Jezus. Služenje Bogu mora vedno imeti prednost. Bog nam mora biti prvi. Bolj ko bo naša ljubezen do Boga pristna, bolj dejavna bo naša ljubezen do bližnjega.
+    bibleQuote: `38 Ko so potovali, je prišel v neko vas in žena z imenom Marta ga je sprejela v svojo hišo.
+39 Imela je sestro, ki ji je bilo ime Marija. Ta je sedla h Gospodovim nogam in poslušala njegove besede, 40 Marta pa je imela s postrežbo veliko dela. Pristopila je in rekla: »Gospod, ti ni mar, da me je sestra pustila sámo streči? Reci ji vendar, naj mi pomaga!« 41 Gospod ji je odgovoril: »Marta, Marta, skrbi in vznemirja te veliko stvari, 42 a le eno je potrebno.
+Marija si je izvolila dobri del, ki ji ne bo odvzet.« (Lk 10, 38-42)`,
+    reflection: `Vsi moramo delati. Toda delo nas ne sme v celoti posrkati, kot se je to zgodilo Marti. Smisel našemu življenju ne daje najprej zemeljska hrana, temveč hrana, ki daje večno življenje, to je evharistični Jezus. Služenje Bogu mora vedno imeti prednost. Bog nam mora biti prvi. Bolj ko bo naša ljubezen do Boga pristna, bolj dejavna bo naša ljubezen do bližnjega.
 
 Adoracijo lahko opravimo z zavedanjem, da bolj ko bomo pri adoraciji obsijani od Boga, več Boga bomo lahko prinesli v naše delo, v naše domove, našim bližnjim.`,
     source: "Vir: F Racine: Izkusimo moč adoracije (Založba Emanuel, 2020)",
@@ -197,11 +206,9 @@ Adoracijo lahko opravimo z zavedanjem, da bolj ko bomo pri adoraciji obsijani od
   {
     id: 7,
     title: "Češčenje - Iskanje Jezusovega dotika",
-    content: `25 Bila je neka žena, ki je že dvanajst let krvavela. 26 Veliko je pretrpela od mnogih zdravnikov in porabila vse svoje premoženje, pa ji ni nič pomagalo, ampak je bilo z njo celo slabše. 27 Slišala je za Jezusa. Med množico se mu je približala od zadaj in se dotaknila njegove obleke. 28 Rekla je namreč: »Tudi če se dotaknem le njegove obleke, bom rešena.« 
-29 In v hipu se ji je ustavila kri in v telesu je začutila, da je ozdravljena nadloge. 30 Jezus je v sebi zaznal, da je šla moč iz njega. Takoj se je obrnil v množici in rekel: »Kdo se je dotaknil moje obleke?« 31 Njegovi učenci so mu govorili: »Saj vidiš, kako množica pritiska nate, pa praviš: ›Kdo se me je dotaknil?‹« 32 Oziral se je okrog, da bi videl tisto, ki je to storila. 33 Ker je žena vedela, kaj se je z njo zgodilo, je vsa preplašena trepetaje pristopila, se vrgla predenj in mu povedala vso resnico. 34 On pa ji je rekel: »Hči, tvoja vera te je rešila. Pojdi v miru in bodi ozdravljena svoje nadloge!« (Mr 5, 25-34)
-
-
-Pri adoraciji se lahko "dotaknem Jezusa". Se mu lahko približam in se ga plašno dotaknem...
+    bibleQuote: `25 Bila je neka žena, ki je že dvanajst let krvavela. 26 Veliko je pretrpela od mnogih zdravnikov in porabila vse svoje premoženje, pa ji ni nič pomagalo, ampak je bilo z njo celo slabše. 27 Slišala je za Jezusa. Med množico se mu je približala od zadaj in se dotaknila njegove obleke. 28 Rekla je namreč: »Tudi če se dotaknem le njegove obleke, bom rešena.«
+29 In v hipu se ji je ustavila kri in v telesu je začutila, da je ozdravljena nadloge. 30 Jezus je v sebi zaznal, da je šla moč iz njega. Takoj se je obrnil v množici in rekel: »Kdo se je dotaknil moje obleke?« 31 Njegovi učenci so mu govorili: »Saj vidiš, kako množica pritiska nate, pa praviš: ›Kdo se me je dotaknil?‹« 32 Oziral se je okrog, da bi videl tisto, ki je to storila. 33 Ker je žena vedela, kaj se je z njo zgodilo, je vsa preplašena trepetaje pristopila, se vrgla predenj in mu povedala vso resnico. 34 On pa ji je rekel: »Hči, tvoja vera te je rešila. Pojdi v miru in bodi ozdravljena svoje nadloge!« (Mr 5, 25-34)`,
+    reflection: `Pri adoraciji se lahko "dotaknem Jezusa". Se mu lahko približam in se ga plašno dotaknem...
 Jezusa se lahko dotaknem v zaupnem pogovoru z Njim, pri skrivnosti Gospodove večerje...
 (Vendar si ne domišljajmo prehitro, da smo se Ga dotaknili, ko smo se mu le približali!)
 Pa vendar je mogoče, da se pri adoraciji lahko pojavijo privilegirani trenutki, ko v neizrekljivem drhtenju, v nekakšni nepremagljivi očividnosti (takrat pademo na kolena v veliko ponižnosti!) rečemo: "Dotaknil sem se Jezusa!" Ali še bolje: "Jezus se me je dotaknil!"
@@ -213,18 +220,16 @@ Pa vendar je mogoče, da se pri adoraciji lahko pojavijo privilegirani trenutki,
   {
     id: 8,
     title: "Častiti Očeta v duhu in resnici",
-    content: `Žena mu je dejala: »Gospod, vidim, da si prerok. Naši očetje so častili Boga na tej gori, vi pa pravite, da je kraj, kjer ga je treba častiti, v Jeruzalemu.« Jezus ji je rekel: »Veruj mi, žena, da pride ura, ko ne boste častili Očeta ne na tej gori ne v Jeruzalemu. Vi častite, česar ne poznate, mi pa častimo, kar poznamo, kajti odrešenje je od Judov. Pride pa ura in je že zdaj, ko bodo pravi častilci častili Očeta v duhu in resnici. Prav takih častilcev si namreč želi Oče. Bog je duh, in kateri ga častijo, ga morajo častiti v duhu in resnici.« Žena mu je dejala: »Vem, da pride Mesija (kar pomeni Maziljenec). Ko pride, nam bo vse oznanil.« (Jn 4, 19-25)
-
-Jezus se razodeva kot veliki in popolni častilec Očeta. Jezus časti v duhu in resnici. Jezus je resnica. Sveti Duh v polnosti živi v njem. Zato so vsa Jezusova dejanja, molitve in besede izpolnjene v duhu in resnici.
+    bibleQuote: `Žena mu je dejala: »Gospod, vidim, da si prerok. Naši očetje so častili Boga na tej gori, vi pa pravite, da je kraj, kjer ga je treba častiti, v Jeruzalemu.« Jezus ji je rekel: »Veruj mi, žena, da pride ura, ko ne boste častili Očeta ne na tej gori ne v Jeruzalemu. Vi častite, česar ne poznate, mi pa častimo, kar poznamo, kajti odrešenje je od Judov. Pride pa ura in je že zdaj, ko bodo pravi častilci častili Očeta v duhu in resnici. Prav takih častilcev si namreč želi Oče. Bog je duh, in kateri ga častijo, ga morajo častiti v duhu in resnici.« Žena mu je dejala: »Vem, da pride Mesija (kar pomeni Maziljenec). Ko pride, nam bo vse oznanil.« (Jn 4, 19-25)`,
+    reflection: `Jezus se razodeva kot veliki in popolni častilec Očeta. Jezus časti v duhu in resnici. Jezus je resnica. Sveti Duh v polnosti živi v njem. Zato so vsa Jezusova dejanja, molitve in besede izpolnjene v duhu in resnici.
 Ko pridem pred Najsvetejše in gledam hostijo, storim čisti korak vere. Gledam istega Jezusa, kot ga opisuje evangelij. Jezusa, živega in resničnega! Jezusa, ki časti Očeta v Duhu in resnici. Jezusa, ki bo zame storil vse, kar je storil za svoje prijatelje v evangeliju.`,
     source: "Vir: F Racine: Izkusimo moč adoracije (Založba Emanuel, 2020)",
   },
   {
     id: 9,
     title: "Češčenje - zaupno polaganje ljubljene osebe pred Gospoda",
-    content: `Ko je čez nekaj dni spet prišel v Kafarnáum, se je razvedelo, da je v hiši. Veliko se jih je nabralo, tako da še v veži ni bilo več prostora, in jim je oznanjal besedo. Kar na lepem so prišli k njemu s hromim, ki so ga štirje nosili. Ker ga zaradi gneče niso mogli prinesti predenj, so nad krajem, kjer je bil, odkrili streho in spustili skozi odprtino nosila, na katerih je hromi ležal. Ko Jezus vidi njihovo vero, reče hromemu: »Sin, odpuščeni so ti grehi!« Sedelo pa je tam nekaj pismoukov, ki so v srcu premišljevali: »Kaj ta tako govori? To je bogokletje! Kdo more odpuščati grehe razen Boga?« Jezus v duhu takoj spozna, da pri sebi tako mislijo, in jim reče: »Kaj tako premišljujete v svojih srcih? Kaj je laže? Reči hromemu: ‘Odpuščeni so ti grehi’ ali reči: ‘Vstani, vzemi nosila in hôdi?’ Ampak da boste vedeli, da ima Sin človekov oblast na zemlji odpuščati grehe,« reče tedaj hromemu: »Vstani, vzemi nosila in pojdi domov!« Mož je vstal, takoj pograbil nosila in vpričo vseh odšel, tako da so vsi strmeli in slavili Boga: »Kaj takega nismo še nikoli videli.« (Mr 2, 1-10)
-
-Štirje prijatelji hromega se niso ustrašili težave ki jih je ovirala, da bi prijatelja postavili pred Jezusa. Dokazali so pogum, iznajdljivost in odločnost. Ko je Jezus videl njihovo (!) vero, je rekel hromemu: "Tvoji grehi so ti odpuščeni". Nič ni rečeno o veri hromega, niti o tem, ali je sploh želel biti prinešen pred Jezusa. Gotovo je, da to, da je Jezusa nagovorila vera štirih prijateljev.
+    bibleQuote: `Ko je čez nekaj dni spet prišel v Kafarnáum, se je razvedelo, da je v hiši. Veliko se jih je nabralo, tako da še v veži ni bilo več prostora, in jim je oznanjal besedo. Kar na lepem so prišli k njemu s hromim, ki so ga štirje nosili. Ker ga zaradi gneče niso mogli prinesti predenj, so nad krajem, kjer je bil, odkrili streho in spustili skozi odprtino nosila, na katerih je hromi ležal. Ko Jezus vidi njihovo vero, reče hromemu: »Sin, odpuščeni so ti grehi!« Sedelo pa je tam nekaj pismoukov, ki so v srcu premišljevali: »Kaj ta tako govori? To je bogokletje! Kdo more odpuščati grehe razen Boga?« Jezus v duhu takoj spozna, da pri sebi tako mislijo, in jim reče: »Kaj tako premišljujete v svojih srcih? Kaj je laže? Reči hromemu: 'Odpuščeni so ti grehi' ali reči: 'Vstani, vzemi nosila in hôdi?' Ampak da boste vedeli, da ima Sin človekov oblast na zemlji odpuščati grehe,« reče tedaj hromemu: »Vstani, vzemi nosila in pojdi domov!« Mož je vstal, takoj pograbil nosila in vpričo vseh odšel, tako da so vsi strmeli in slavili Boga: »Kaj takega nismo še nikoli videli.« (Mr 2, 1-10)`,
+    reflection: `Štirje prijatelji hromega se niso ustrašili težave ki jih je ovirala, da bi prijatelja postavili pred Jezusa. Dokazali so pogum, iznajdljivost in odločnost. Ko je Jezus videl njihovo (!) vero, je rekel hromemu: "Tvoji grehi so ti odpuščeni". Nič ni rečeno o veri hromega, niti o tem, ali je sploh želel biti prinešen pred Jezusa. Gotovo je, da to, da je Jezusa nagovorila vera štirih prijateljev.
 
 Ko smo pri adoraciji, pred živim Jezusom, lahko predenj prinesemo naše bližnje, prijatelje, družine, ves svet. Zanje Ga lahko prosimo, da tudi njim spregovori: "Tvoji grehi so ti odpuščeni!" Da jim reče: "Ozdravljam te..., vstani..., vzemi...,pojdi.."`,
     source: "Vir: F Racine: Izkusimo moč adoracije (Založba Emanuel, 2020)",
@@ -232,9 +237,8 @@ Ko smo pri adoraciji, pred živim Jezusom, lahko predenj prinesemo naše bližnj
   {
     id: 10,
     title: "Naj se zgodi Tvoja volja...",
-    content: `Prišli so na kraj z imenom Getsemani, in Jezus je rekel svojim učencem: »Sedíte tukaj, dokler bom molil!« S seboj je vzel Petra, Jakoba in Janeza. Osupnil je od groze in začel trepetati.  Rekel jim je: »Moja duša je žalostna do smrti. Ostanite tukaj in bedite!« In šel je malo naprej, se vrgel na tla in molil, da bi šla, če je mogoče, ta ura mimo njega. Govoril je: »Aba, Oče, tebi je vse mogoče! Daj, da gre ta kelih mimo mene, vendar ne, kar jaz hočem, ampak kar ti!« Nato je šel in ugotovil, da spijo. Petru je rekel: »Simon, spiš? Nisi mogel eno uro ostati buden? Bedite in molíte, da ne pridete v skušnjavo! Duh je sicer voljan, a meso je slabotno.« (Mr 14, 32-38)
-
-Kot častilec, pri adoraciji ne želim več iskati "svoje volje za Boga", temveč iščem "Božjo voljo zame". Kristjani se prepogosto velikodušno izgubljamo v številnih služenjih, ki si jih nalagamo. In ob tem lahko doživljamo občutek nezadovoljstva, neizpolnjenosti, saj izpolnjujemo "svojo voljo za Boga".
+    bibleQuote: `Prišli so na kraj z imenom Getsemani, in Jezus je rekel svojim učencem: »Sedíte tukaj, dokler bom molil!« S seboj je vzel Petra, Jakoba in Janeza. Osupnil je od groze in začel trepetati.  Rekel jim je: »Moja duša je žalostna do smrti. Ostanite tukaj in bedite!« In šel je malo naprej, se vrgel na tla in molil, da bi šla, če je mogoče, ta ura mimo njega. Govoril je: »Aba, Oče, tebi je vse mogoče! Daj, da gre ta kelih mimo mene, vendar ne, kar jaz hočem, ampak kar ti!« Nato je šel in ugotovil, da spijo. Petru je rekel: »Simon, spiš? Nisi mogel eno uro ostati buden? Bedite in molíte, da ne pridete v skušnjavo! Duh je sicer voljan, a meso je slabotno.« (Mr 14, 32-38)`,
+    reflection: `Kot častilec, pri adoraciji ne želim več iskati "svoje volje za Boga", temveč iščem "Božjo voljo zame". Kristjani se prepogosto velikodušno izgubljamo v številnih služenjih, ki si jih nalagamo. In ob tem lahko doživljamo občutek nezadovoljstva, neizpolnjenosti, saj izpolnjujemo "svojo voljo za Boga".
 Preden začnem v vsakdanjem življenju delovati, moram kot pravi častilec poklekniti pred Gospoda, prepoznati Njegovo voljo in od Njega prejeti moč in milost za izpolnitev zastavljenega. "Gospod pokaži mi tvojo voljo in mi nakloni milost, da jo izpolnim."
 
 In še to: molitev je najboljša opora v boju proti vsakodnevnim skušnjavam.
@@ -613,7 +617,8 @@ const AboutMain = () => {
                   <p className="text-lg leading-relaxed text-navy/90 font-inter">
                     Če ste se odločili, da vsaj eno uro na teden preživite v
                     tišini ob evharističnem Jezusu in postanete njegov stalni
-                    častilec, se lahko prijavite na enega od naslednjih načinov:
+                    častilec, se nam lahko pridružite na enega od naslednjih
+                    načinov:
                   </p>
 
                   <div className="grid md:grid-cols-3 gap-4 mt-4">
@@ -646,7 +651,7 @@ const AboutMain = () => {
                           </span>
                         </div>
                         <p className="font-inter font-semibold text-navy mb-2">
-                          Pošljite sms z osebnimi podatki na tel.
+                          Pošljite sms na tel.
                         </p>
                         <a
                           href="tel:041601854"
@@ -702,18 +707,13 @@ const AboutMain = () => {
                   </h3>
                   <div className="w-20 h-0.5 bg-gold" />
                   <p className="text-base leading-relaxed text-navy/90 font-inter">
-                    Ker gre pri tihi adoraciji za osebni odnos dveh oseb,
-                    človeka in Boga, ki se ljubita, je možnosti za češčenje
-                    neskončno. Kolikor je ljudi, toliko je tudi možnosti in za
-                    vsako lahko rečemo – če le poteka v tišini - da je pravilna.
-                    Pred Jezusa lahko pridemo »utrujeni in obteženi« ali pa
-                    veseli in radostni in temu primerno bo potekala tudi naša
-                    adoracija.
-                  </p>
-                  <p className="text-base leading-relaxed text-navy/90 font-inter">
-                    Pa vendar, za lažji vstop v adoracijo, kot pomoč, nasvet pri
-                    evharističnem češčenju, v nadaljevanju podajamo nekaj
-                    predlogov, nekaj možnosti.
+                    Pri tihi adoraciji gre za osebni odnos med človekom in Bogom
+                    – dveh oseb, ki se ljubita. Zato je možnosti za češčenje
+                    neskončno: kolikor je ljudi, toliko je poti. Vsaka je
+                    pravilna, če le poteka v tišini. Pred Jezusa lahko pridemo
+                    utrujeni in obteženi ali veseli in radostni – temu primerno
+                    bo potekala tudi naša adoracija. Za lažji vstop v adoracijo
+                    v nadaljevanju ponujamo nekaj predlogov in napotkov.
                   </p>
                 </div>
               </div>
@@ -771,9 +771,18 @@ const AboutMain = () => {
                             transition={{ duration: 0.3, ease: "easeInOut" }}
                             className="px-6 pb-6 pt-2 border-t border-navy/10 overflow-hidden"
                           >
-                            <p className="text-base text-navy/85 font-inter leading-relaxed whitespace-pre-line">
-                              {predlog.content}
-                            </p>
+                            {predlog.bibleQuote && (
+                              <div className="p-4 bg-gold/15 backdrop-blur-sm rounded-lg border border-gold/30 mb-4">
+                                <p className="text-base leading-relaxed text-navy/90 font-inter whitespace-pre-line italic">
+                                  {predlog.bibleQuote}
+                                </p>
+                              </div>
+                            )}
+                            {(predlog.reflection || predlog.content) && (
+                              <p className="text-base text-navy/85 font-inter leading-relaxed whitespace-pre-line">
+                                {predlog.reflection ?? predlog.content}
+                              </p>
+                            )}
                             {predlog.source && (
                               <p className="text-sm italic text-navy/60 font-inter mt-4">
                                 {predlog.source}
