@@ -8,7 +8,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-navy text-white py-16">
+    <footer className="bg-navy text-white pb-2 pt-12">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
@@ -85,14 +85,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-8 text-center">
-          <p className="text-cream/60">
-            © {new Date().getFullYear()} Adoramus Dominum. Ker molitev
-            spreminja.
-          </p>
         </div>
       </div>
     </footer>
