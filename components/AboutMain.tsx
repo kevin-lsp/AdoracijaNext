@@ -422,9 +422,9 @@ const AboutMain = () => {
   };
 
   return (
-    <section id="about" className="py-20">
+    <section id="about" className="py-10 md:py-20">
       <div className="container mx-auto px-6 max-w-6xl">
-        <div className="space-y-24">
+        <div className="space-y-12 md:space-y-24">
           {/* SECTION 1: Adoracija - molitev pred Najsvetejšim (Full Width) */}
           <motion.div
             initial="hidden"
@@ -432,9 +432,9 @@ const AboutMain = () => {
             viewport={{ once: true, margin: "-100px" }}
             variants={sectionVariants}
           >
-            <div className="p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
-              <div className="flex gap-6 items-start">
-                <Sparkles className="w-8 h-8 text-gold flex-shrink-0 mt-1" />
+            <div className="p-4 sm:p-6 md:p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
+              <div className="flex gap-3 md:gap-6 items-start">
+                <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-gold flex-shrink-0 mt-1" />
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl md:text-3xl font-playfair font-bold text-navy">
                     {sectionContent.section1.title}
@@ -491,9 +491,9 @@ const AboutMain = () => {
             className="grid md:grid-cols-2 gap-8"
           >
             {/* SECTION 2: Adoracija - pot do osebnega odnosa z Jezusom */}
-            <div className="p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
-              <div className="flex gap-6 items-start">
-                <Heart className="w-8 h-8 text-gold flex-shrink-0 mt-1" />
+            <div className="p-4 sm:p-6 md:p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
+              <div className="flex gap-3 md:gap-6 items-start">
+                <Heart className="w-6 h-6 md:w-8 md:h-8 text-gold flex-shrink-0 mt-1" />
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-playfair font-bold text-navy">
                     {sectionContent.section2.title}
@@ -541,9 +541,9 @@ const AboutMain = () => {
             </div>
 
             {/* SECTION 3: Jezus vabi vse in nam podarja svoj mir */}
-            <div className="p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
-              <div className="flex gap-6 items-start">
-                <Users className="w-8 h-8 text-gold flex-shrink-0 mt-1" />
+            <div className="p-4 sm:p-6 md:p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
+              <div className="flex gap-3 md:gap-6 items-start">
+                <Users className="w-6 h-6 md:w-8 md:h-8 text-gold flex-shrink-0 mt-1" />
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-playfair font-bold text-navy">
                     {sectionContent.section3.title}
@@ -602,9 +602,9 @@ const AboutMain = () => {
             className="grid md:grid-cols-2 gap-8"
           >
             {/* SECTION 4: Stalna adoracija */}
-            <div className="p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
-              <div className="flex gap-6 items-start">
-                <Clock className="w-8 h-8 text-gold flex-shrink-0 mt-1" />
+            <div className="p-4 sm:p-6 md:p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
+              <div className="flex gap-3 md:gap-6 items-start">
+                <Clock className="w-6 h-6 md:w-8 md:h-8 text-gold flex-shrink-0 mt-1" />
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-playfair font-bold text-navy">
                     {sectionContent.section4.title}
@@ -652,9 +652,9 @@ const AboutMain = () => {
             </div>
 
             {/* SECTION 5: Stalni častilec */}
-            <div className="p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
-              <div className="flex gap-6 items-start">
-                <User className="w-8 h-8 text-gold flex-shrink-0 mt-1" />
+            <div className="p-4 sm:p-6 md:p-8 bg-white/92 backdrop-blur-sm shadow-2xl rounded-lg border border-navy/15 transition-all duration-300 hover:shadow-3xl">
+              <div className="flex gap-3 md:gap-6 items-start">
+                <User className="w-6 h-6 md:w-8 md:h-8 text-gold flex-shrink-0 mt-1" />
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-playfair font-bold text-navy">
                     {sectionContent.section5.title}
@@ -709,8 +709,8 @@ const AboutMain = () => {
             viewport={{ once: true, margin: "-100px" }}
             variants={sectionVariants}
           >
-            <div className="p-6 bg-cream shadow-3xl rounded-2xl border-4 border-gold/60 transition-all duration-300 hover:shadow-4xl">
-              <div className="flex gap-6 items-start">
+            <div className="p-4 md:p-6 bg-cream shadow-3xl rounded-2xl border-4 border-gold/60 transition-all duration-300 hover:shadow-4xl">
+              <div className="flex gap-3 md:gap-6 items-start">
                 <Send className="w-10 h-10 text-gold flex-shrink-0 mt-1 animate-pulse" />
                 <div className="flex-1 space-y-3">
                   <h3 className="text-3xl md:text-4xl font-playfair font-bold text-navy">
@@ -800,9 +800,9 @@ const AboutMain = () => {
             variants={sectionVariants}
           >
             {/* Unified Container */}
-            <div className="p-10 md:p-12 bg-white/95 backdrop-blur-sm shadow-3xl rounded-2xl border-2 border-navy/10 hover:shadow-4xl transition-all duration-300">
+            <div className="p-4 sm:p-6 md:p-10 lg:p-12 bg-white/95 backdrop-blur-sm shadow-3xl rounded-2xl border-2 border-navy/10 hover:shadow-4xl transition-all duration-300">
               {/* Header Section */}
-              <div className="flex gap-6 items-start mb-10">
+              <div className="flex gap-3 md:gap-6 items-start mb-6 md:mb-10">
                 <BookOpen className="w-10 h-10 text-gold flex-shrink-0 mt-1" />
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl md:text-3xl font-playfair font-bold text-navy">

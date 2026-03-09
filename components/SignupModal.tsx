@@ -95,7 +95,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
           {/* Modal */}
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
             <motion.div
-              className="bg-white rounded-2xl shadow-3xl max-w-lg w-full p-8 relative"
+              className="bg-white rounded-2xl shadow-3xl max-w-lg w-full p-5 sm:p-8 relative"
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}

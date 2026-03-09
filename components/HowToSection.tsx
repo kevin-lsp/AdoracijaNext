@@ -18,7 +18,7 @@ export default function HowToSection() {
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   return (
-    <section id="how-to" ref={ref} className="relative py-32 overflow-hidden bg-navy">
+    <section id="how-to" ref={ref} className="relative py-16 md:py-32 overflow-hidden bg-navy">
       {/* Large Visible Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -36,9 +36,9 @@ export default function HowToSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-20"
+          className="text-center mb-10 md:mb-20"
         >
-          <h2 className="font-display text-5xl md:text-7xl font-bold text-white mb-6">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6">
             Kako pristopiti
           </h2>
           <p className="text-xl md:text-2xl text-cream/80 max-w-2xl mx-auto">
@@ -57,7 +57,7 @@ export default function HowToSection() {
               whileHover={{ y: -10, transition: { duration: 0.3 } }}
               className="group"
             >
-              <div className="relative h-full bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 hover:border-gold/50 transition-all duration-300 hover:shadow-2xl hover:shadow-gold/20">
+              <div className="relative h-full bg-white/10 backdrop-blur-md rounded-3xl p-5 md:p-8 border border-white/20 hover:border-gold/50 transition-all duration-300 hover:shadow-2xl hover:shadow-gold/20">
                 {/* Number Badge */}
                 <div className="absolute -top-6 left-8">
                   <motion.div
@@ -71,7 +71,7 @@ export default function HowToSection() {
 
                 {/* Content */}
                 <div className="mt-8">
-                  <h3 className="font-display text-3xl font-bold text-white mb-2">
+                  <h3 className="font-display text-2xl md:text-3xl font-bold text-white mb-2">
                     {step.title}
                   </h3>
                   <p className="text-gold text-sm font-semibold mb-4 tracking-wide">
@@ -94,7 +94,7 @@ export default function HowToSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-24 text-center bg-gradient-to-r from-gold/20 to-gold/10 backdrop-blur-lg p-12 rounded-3xl border border-gold/30"
+          className="mt-12 md:mt-24 text-center bg-gradient-to-r from-gold/20 to-gold/10 backdrop-blur-lg p-6 md:p-12 rounded-3xl border border-gold/30"
         >
           <p className="font-display text-2xl md:text-3xl italic text-white leading-relaxed max-w-3xl mx-auto">
             "Ni pomembno, koliko časa preživiš v adoraciji, ampak kako odprto je tvoje srce."

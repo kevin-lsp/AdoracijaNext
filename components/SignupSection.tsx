@@ -54,7 +54,7 @@ export default function SignupSection() {
   };
 
   return (
-    <section id="signup" ref={ref} className="py-32">
+    <section id="signup" ref={ref} className="py-16 md:py-32">
       <div className="container mx-auto px-6 max-w-7xl">
         {/* White Container Box */}
         <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 md:p-12 lg:p-16 border border-navy/10">
@@ -63,9 +63,9 @@ export default function SignupSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-16"
+            className="text-center mb-8 md:mb-16"
           >
-            <h2 className="font-display text-5xl md:text-7xl font-bold text-navy mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-navy mb-6">
               Pridruži se
             </h2>
             <p className="text-xl text-navy/60 max-w-2xl mx-auto">
@@ -106,7 +106,7 @@ export default function SignupSection() {
               </div>
             </div>
 
-            <div className="bg-navy/95 backdrop-blur-md p-8 rounded-2xl text-white shadow-2xl border border-white/10">
+            <div className="bg-navy/95 backdrop-blur-md p-5 md:p-8 rounded-2xl text-white shadow-2xl border border-white/10">
               <h4 className="font-display text-2xl font-bold mb-4">Kontakt</h4>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">

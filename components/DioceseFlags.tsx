@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
@@ -44,7 +44,7 @@ const dioceses: Diocese[] = [
         {
           type: "text",
           label: "Lokacija",
-          text: "Cerkev svetega Marka (Kvedrova 17, Koper)",
+          text: '<a href="https://maps.app.goo.gl/g53rXW3bxvnwUUcN8" target="_blank" rel="noopener noreferrer" class="underline hover:text-gold-dark transition-colors">Cerkev svetega Marka (Kvedrova 17, Koper)</a>',
         },
         {
           type: "text",
@@ -91,6 +91,14 @@ const dioceses: Diocese[] = [
 
 const DioceseFlags = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
 
   const activeContent =
     activeIndex !== null ? dioceses[activeIndex].content : null;
@@ -103,6 +111,132 @@ const DioceseFlags = () => {
     }
   };
 
+  // Mobile layout: fixed bottom bar with horizontal scrollable flags
+  if (isMobile) {
+    return (
+      <>
+        {/* Bottom sheet panel */}
+        <AnimatePresence>
+          {activeContent && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+              className="fixed bottom-16 left-0 right-0 z-50 overflow-hidden"
+            >
+              <div className="w-full max-h-[60vh] overflow-y-auto bg-cream rounded-t-2xl shadow-2xl border border-gold/20 border-b-0">
+                {/* Close button */}
+                <button
+                  onClick={() => setActiveIndex(null)}
+                  className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-navy/80 text-cream hover:bg-navy transition-colors"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L13 13M1 13L13 1"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </button>
+
+                {/* Image */}
+                <div className="relative w-full rounded-tl-2xl overflow-hidden">
+                  <Image
+                    src={activeContent.image}
+                    alt={activeContent.title}
+                    width={740}
+                    height={500}
+                    className="w-full h-auto"
+                  />
+                </div>
+
+                {/* Content */}
+                <div className="p-4">
+                  <h3 className="font-display text-xl font-bold text-navy mb-1">
+                    {activeContent.title}
+                  </h3>
+                  <div className="w-12 h-0.5 bg-gold mb-3" />
+
+                  <div className="space-y-3">
+                    {activeContent.sections.map((section, i) =>
+                      section.type === "callout" ? (
+                        <div
+                          key={i}
+                          className="bg-cream-dark p-3 rounded-xl border-l-4 border-gold"
+                        >
+                          <p className="font-body text-sm text-navy/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: section.text }} />
+                        </div>
+                      ) : (
+                        <div key={i}>
+                          {section.label && (
+                            <p className="font-body text-xs font-bold text-gold-dark uppercase tracking-wider mb-1">
+                              {section.label}
+                            </p>
+                          )}
+                          <p className="font-body text-sm text-navy/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: section.text }} />
+                        </div>
+                      ),
+                    )}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Fixed bottom bar with horizontal scrollable flags */}
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-md border-t border-gold/20 shadow-lg">
+          <div className="flex overflow-x-auto gap-1 px-2 py-1 scrollbar-hide">
+            {dioceses.map((diocese, index) => (
+              <button
+                key={diocese.name}
+                onClick={() => handleFlagClick(index)}
+                className={`flex-shrink-0 flex flex-col items-center justify-center w-14 h-16 rounded-lg transition-all duration-200 ${
+                  activeIndex === index ? "ring-2 ring-gold scale-105" : ""
+                }`}
+                style={{ backgroundColor: diocese.bgColor }}
+              >
+                {diocese.coatOfArms ? (
+                  <img
+                    src={diocese.coatOfArms}
+                    alt={diocese.name}
+                    className={`w-8 h-10 object-contain ${
+                      diocese.name === "LJUBLJANA"
+                        ? "scale-[0.68]"
+                        : diocese.name === "MURSKA SOBOTA" ||
+                            diocese.name === "NOVO MESTO"
+                          ? "scale-[1.2]"
+                          : ""
+                    }`}
+                  />
+                ) : (
+                  <div
+                    className="w-4 h-5 rounded-b-full flex items-center justify-center text-[8px] font-bold"
+                    style={{
+                      backgroundColor: diocese.accentColor,
+                      color: diocese.bgColor,
+                    }}
+                  >
+                    ✝
+                  </div>
+                )}
+              </button>
+            ))}
+          </div>
+        </div>
+      </>
+    );
+  }
+
+  // Desktop layout: existing right sidebar
   return (
     <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex items-center">
       {/* Expandable panel */}

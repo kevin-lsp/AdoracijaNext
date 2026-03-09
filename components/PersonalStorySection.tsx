@@ -42,7 +42,7 @@ export default function PersonalStorySection() {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section ref={ref} className="py-24 bg-cream/20">
+    <section ref={ref} className="py-12 md:py-24 bg-cream/20">
       <div className="container mx-auto px-6 max-w-7xl">
         {/* NO TITLE - as requested by user */}
 

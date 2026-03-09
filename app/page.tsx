@@ -5,7 +5,7 @@ import ChurchBackgroundSection from '@/components/ChurchBackgroundSection';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pb-20 md:pb-0">
       <HeroSection />
       <ChurchBackgroundSection>
         <AboutMain />

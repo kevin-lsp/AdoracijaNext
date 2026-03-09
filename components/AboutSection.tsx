@@ -37,16 +37,16 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   return (
-    <section id="about" ref={ref} className="relative py-24 bg-white">
+    <section id="about" ref={ref} className="relative py-12 md:py-24 bg-white">
       <div className="container mx-auto px-6 max-w-7xl">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-20"
+          className="text-center mb-10 md:mb-20"
         >
-          <h2 className="font-display text-5xl md:text-7xl font-bold text-navy mb-6">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-navy mb-6">
             Evharistična Adoracija
           </h2>
           <p className="text-xl text-navy/60 max-w-2xl mx-auto">
@@ -55,7 +55,7 @@ export default function AboutSection() {
         </motion.div>
 
         {/* Feature Cards - Alternating Layout */}
-        <div className="space-y-32">
+        <div className="space-y-16 md:space-y-32">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             const isReversed = index % 2 === 1;
@@ -75,7 +75,7 @@ export default function AboutSection() {
                   <motion.div
                     whileHover={{ scale: 1.02 }}
                     transition={{ duration: 0.3 }}
-                    className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group"
+                    className="relative h-[280px] sm:h-[380px] md:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl group"
                   >
                     <Image
                       src={feature.image}
@@ -95,7 +95,7 @@ export default function AboutSection() {
                           : { scale: 0, rotate: -180 }
                       }
                       transition={{ duration: 0.6, delay: index * 0.2 + 0.4 }}
-                      className="absolute top-8 right-8 bg-gold w-20 h-20 rounded-2xl flex items-center justify-center shadow-xl"
+                      className="absolute top-4 right-4 w-14 h-14 md:top-8 md:right-8 md:w-20 md:h-20 bg-gold rounded-2xl flex items-center justify-center shadow-xl"
                     >
                       <Icon className="w-10 h-10 text-navy" />
                     </motion.div>
@@ -118,7 +118,7 @@ export default function AboutSection() {
                         0{index + 1}
                       </span>
                     </div>
-                    <h3 className="font-display text-4xl md:text-5xl font-bold text-navy mb-6 leading-tight">
+                    <h3 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-navy mb-6 leading-tight">
                       {feature.title}
                     </h3>
                     <div className="w-24 h-1 bg-gold mb-8" />

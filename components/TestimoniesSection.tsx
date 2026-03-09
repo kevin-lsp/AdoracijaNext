@@ -39,16 +39,16 @@ export default function TestimoniesSection() {
   const current = testimonies[currentIndex];
 
   return (
-    <section id="testimonies" ref={ref} className="relative py-32 bg-cream overflow-hidden">
+    <section id="testimonies" ref={ref} className="relative py-16 md:py-32 bg-cream overflow-hidden">
       <div className="container mx-auto px-6 max-w-7xl">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-20"
+          className="text-center mb-10 md:mb-20"
         >
-          <h2 className="font-display text-5xl md:text-7xl font-bold text-navy mb-6">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-navy mb-6">
             Besede svetnikov
           </h2>
           <p className="text-xl text-navy/60 max-w-2xl mx-auto">
@@ -64,7 +64,7 @@ export default function TestimoniesSection() {
           className="relative max-w-5xl mx-auto"
         >
           {/* Background Image Card */}
-          <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
+          <div className="relative h-[400px] sm:h-[480px] md:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
               key={currentIndex}
               src={current.image}
@@ -75,7 +75,7 @@ export default function TestimoniesSection() {
             <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/60 to-navy/20" />
 
             {/* Quote Content */}
-            <div className="absolute inset-0 flex flex-col justify-end p-12">
+            <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-8 md:p-12">
               <motion.div
                 key={`quote-${currentIndex}`}
                 initial={{ opacity: 0, y: 30 }}
@@ -83,11 +83,11 @@ export default function TestimoniesSection() {
                 exit={{ opacity: 0, y: -30 }}
                 transition={{ duration: 0.5 }}
               >
-                <p className="font-display text-3xl md:text-4xl font-bold text-white leading-relaxed mb-8 italic">
+                <p className="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-relaxed mb-4 md:mb-8 italic">
                   "{current.quote}"
                 </p>
-                <div className="flex items-center justify-between">
-                  <p className="text-gold text-2xl font-semibold">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                  <p className="text-gold text-lg md:text-2xl font-semibold">
                     — {current.author}
                   </p>
                   <div className="flex gap-3">
@@ -96,7 +96,7 @@ export default function TestimoniesSection() {
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
                       onClick={prev}
-                      className="w-14 h-14 rounded-full bg-gold hover:bg-gold-light flex items-center justify-center shadow-lg transition-colors"
+                      className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-gold hover:bg-gold-light flex items-center justify-center shadow-lg transition-colors"
                       aria-label="Previous"
                     >
                       <ChevronLeft className="w-6 h-6 text-navy" />
@@ -105,7 +105,7 @@ export default function TestimoniesSection() {
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
                       onClick={next}
-                      className="w-14 h-14 rounded-full bg-gold hover:bg-gold-light flex items-center justify-center shadow-lg transition-colors"
+                      className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-gold hover:bg-gold-light flex items-center justify-center shadow-lg transition-colors"
                       aria-label="Next"
                     >
                       <ChevronRight className="w-6 h-6 text-navy" />
