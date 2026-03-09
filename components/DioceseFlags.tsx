@@ -49,7 +49,7 @@ const dioceses: Diocese[] = [
         {
           type: "text",
           label: "Urnik",
-          text: "Vsak dan od ponedeljka do petka, dve uri po večerni sveti maši (od 19.30 do 21.30)",
+          text: "<strong>Vsak dan od ponedeljka do petka</strong>, dve uri po večerni sveti maši (od 19.30 do 21.30)",
         },
 
         {
@@ -162,9 +162,7 @@ const DioceseFlags = () => {
                         key={i}
                         className="bg-cream-dark p-4 rounded-xl border-l-4 border-gold"
                       >
-                        <p className="font-body text-sm text-navy/80 leading-relaxed">
-                          {section.text}
-                        </p>
+                        <p className="font-body text-sm text-navy/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: section.text }} />
                       </div>
                     ) : (
                       <div key={i}>
@@ -173,9 +171,7 @@ const DioceseFlags = () => {
                             {section.label}
                           </p>
                         )}
-                        <p className="font-body text-sm text-navy/80 leading-relaxed">
-                          {section.text}
-                        </p>
+                        <p className="font-body text-sm text-navy/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: section.text }} />
                       </div>
                     ),
                   )}
