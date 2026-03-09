@@ -119,7 +119,7 @@ const predlogs: Predlog[] = [
 Podobno je, kadar se postavim na sonce in to neizbežno sije name, na isti način name gleda
 Bog.
 
-Začetek: Umiritev in zavedanje. Povabilo Svetega Duha.
+<u>Začetek: Umiritev in zavedanje. Povabilo Svetega Duha.</u>
 
 Poklonim se in se postavim v primeren položaj, lahko zaprem oči in se skušam
 zavedati, da me Bog prav v tem trenutku gleda z ljubečim pogledom. Molitev je vračanje k
@@ -131,7 +131,7 @@ pričakovanj. Bog je preprosto vesel, da sem z njim. Tako lahko ostanem nekaj tr
 zavedanje poglobim.
 V molitev povabim Svetega Duha. On bo vodil mojo molitev.
 
-Izročanje: Pred Boga položi vse, s čimer si prišel.
+<u>Izročanje: Pred Boga položi vse, s čimer si prišel.</u>
 
 Spregovorim, o tem, kar mi leži na srcu in o vsem, kar me ta trenutek zaposluje. Vse
 preprosto izročim Bogu brez nadaljnjega premlevanja in razčlenjevanja. Predstavljam si, da je
@@ -141,12 +141,12 @@ To je lahko nekaj povsem vsakdanjega: težave v šoli, doma ali v službi, skrb 
 otroka, skrbi, ki me ne zapustijo, boleči spomini … Zaupam mu, kaj me v tem trenutku teži in
 zaposluje, saj bi me to sicer nenehno odvračalo in motilo mojo zbranost med molitvijo.
 
-Hvaležnost: Premislim in izrazim, za kaj sem mu hvaležen.
+<u>Hvaležnost: Premislim in izrazim, za kaj sem mu hvaležen.</u>
 
 Spomnim se na nekaj stvari, za katere sem hvaležen, in se mu zanje zahvalim.
 Izrazim se preprosto, s svojimi besedami, brez kompliciranja.
 
-Usmeritev: Bogu zaupam, kje potrebujem njegovo vodstvo.
+<u>Usmeritev: Bogu zaupam, kje potrebujem njegovo vodstvo.</u>
 
 Razmislim, v katerih okoliščinah ali pri kateri stvari potrebujem Božjo usmeritev in
 njegovo vodstvo (na primer: čaka me zelo naporen sestanek v službi, imam zahteven pogovor
@@ -155,7 +155,7 @@ odločim v določenem položaju...
 Ko to izrečem, se odprem in prisluhnem Božjim predlogom, da se izpolni Božja volja in ne
 moja.
 
-Poslušanje: Notranja naravnanost za poslušanje tihega šepeta.
+<u>Poslušanje: Notranja naravnanost za poslušanje tihega šepeta.</u>
 
 Odprem duhovna ušesa za Božje predloge in tako vstopim v poslušanje. Bistvo poslušanja je,
 da sem pozoren na pobude Boga. Te pogosto pridejo ob prebranem odlomku iz Svetega pisma
@@ -171,7 +171,7 @@ odgovor.
 
 Prosim ga lahko naj mi pomaga pri uresničevanju tega, kar mi je uspelo slišati.
 
-Češčenje: Usmeritev in poslušanje lahko zamenja notranja počastitev Boga.
+<u>Češčenje: Usmeritev in poslušanje lahko zamenja notranja počastitev Boga.</u>
 
 Gospod me lahko globoko povede v svojo bližino.
 Prepustim se Svetemu Duhu, ki me vodi v vse večje zavedanje navzočnosti Boga. Kolikor je v
@@ -179,7 +179,7 @@ moji moči, okušam to navzočnost. Postavim se predenj, kakršenkoli sem; dovol
 ljubi. Čudim se tej ljubezni in se zahvalim zanjo. Čudim se ljubezni, ki jo ima do drugih ljudi.
 Najina prisotnost je dovolj. Ljubezen zadostuje.
 
-Zaključek: Zahvala za čas molitve in molitev Cerkve.
+<u>Zaključek: Zahvala za čas molitve in molitev Cerkve.</u>
 
 Bogu se zahvalim za skupni čas. Lahko mu izrazim posebno hvaležnost za določene besede
 ali prejete občutke.
